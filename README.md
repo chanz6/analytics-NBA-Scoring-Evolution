@@ -169,7 +169,7 @@ diff = stats_df[['FGM', '3PA', '3PM', 'PTS']].diff()
 ```
 
 ### Points Scored
-The graph below shows the total points scored across different seasons. We can observe that the total points have been rising steadily. The largest increase between two seasons was 3645 points, with an average increase of 4744 points per season.
+The graph below shows the total points scored across different seasons. We can observe that the total points have been rising steadily. The largest increase between two seasons was 12,527 points, with an average increase of 4,744 points per season.
 ```
 #Import seaborn
 import seaborn as sns
@@ -196,7 +196,7 @@ print('Maximum Increase: ' + str(pts_max_diff) + ' points, Average Increase: ' +
 ```
 ![](images/capture21.PNG)
 ### Field Goals Made
-The graph below illustrates the number of field goals made (FGM) across various seasons. We can see a consistent increase in FGM over the seasons. The largest increase between two seasons was 3645 field goals, with an average increase of approximately 1333 field goals per season.
+The graph below illustrates the number of field goals made (FGM) across various seasons. We can see a consistent increase in FGM over the seasons. The largest increase between two seasons was 3,645 field goals, with an average increase of approximately 1,333 field goals per season.
 ```
 #Display FGM by season
 plt.figure(figsize=(14,7))
@@ -216,7 +216,7 @@ print('Maximum Increase: ' + str(fgm_max_diff) + ' field goals, Average Increase
 ```
 ![](images/capture22.PNG)
 ### Three Pointers Made
-The graph below shows the number of three-pointers made (3PM) across different seasons. The steady rise in 3PM suggests a growing reliance on three-point shots. The largest increase between two seasons was 2916 three-pointers, with an average increase of nearly 1989 three-pointers per season. This increase in three-point shooting may be a significant factor contributing to the overall rise in total points scored.
+The graph below shows the number of three-pointers made (3PM) across different seasons. The steady rise in 3PM suggests a growing reliance on three-point shots. The largest increase between two seasons was 2,916 three-pointers, with an average increase of nearly 1,989 three-pointers per season. This increase in three-point shooting may be a significant factor contributing to the overall rise in total points scored.
 ```
 #Plot 3PM by season
 plt.figure(figsize=(14,7))
@@ -236,7 +236,7 @@ print('Maximum Increase: ' + str(threes_max_diff) + ' 3 pointers made, Average I
 ```
 ![](images/capture23.PNG)
 ### Three Pointers Attempted
-The graph depicting three-pointers attempted (3PA) follows a similar upward trend, reinforcing the shift toward three-point shooting in recent seasons. The largest increase between two seasons was 8409 attempts, with an average increase of approximately 5712 attempts per season. The strong correlation between the rise in 3PA and 3PM underscores the growing importance of the three-point shot in today's game, likely driving the overall increase in scoring.
+The graph depicting three-pointers attempted (3PA) follows a similar upward trend, reinforcing the shift toward three-point shooting in recent seasons. The largest increase between two seasons was 8,409 attempts, with an average increase of approximately 5,712 attempts per season. The strong correlation between the rise in 3PA and 3PM underscores the growing importance of the three-point shot in today's game, likely driving the overall increase in scoring.
 ```
 #Plot 3PA by season
 plt.figure(figsize=(14,7))
