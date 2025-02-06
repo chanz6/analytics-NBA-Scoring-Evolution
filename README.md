@@ -21,17 +21,17 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#scraped--analyzed-with">Scraped & Analyzed With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#project-summary">Project Summary</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#cloning">Cloning</a></li>
+        <li><a href="#findings-summary">Findings Summary</a></li>
+        <li><a href="#visualizations">Visualizations</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -48,7 +48,7 @@ This project analyzes the evolution of NBA scoring efficiency over the past deca
 
 The findings show how the NBA's offensive game has evolved, with a strong emphasis on three-point shooting as a key driver of increased scoring efficiency. This project provides a deeper look into the strategic shift in professional basketball, backed by rigorous analysis.
 
-### Built With
+### Scraped & Analyzed With
 
 * ![Python][Python]
 * ![Pandas][Pandas]
