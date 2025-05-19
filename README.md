@@ -65,7 +65,7 @@ The findings show how the NBA's offensive game has evolved, with a strong emphas
 This project can be cloned using the following command:
 
 ```
-git clone https://github.com/chanz6/NBA-Scoring-Evolution-Analysis.git
+git clone https://github.com/chanz6/analytics-NBA-Scoring-Evolution.git
 ```
 
 ### Findings Summary
